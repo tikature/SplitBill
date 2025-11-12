@@ -46,7 +46,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests and collect coverage
+      - name: Run test and collect coverage
         run: npx jest --coverage --coverageReporters=lcov
 
       - name: SonarCloud Scan
