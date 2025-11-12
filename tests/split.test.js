@@ -1,4 +1,9 @@
-const { splitBill, calculateTotalWithCharge } = require("../src/split.js");
+const {
+    splitBill,
+    calculateTotalWithCharge,
+    DEFAULT_ROUND,
+    DEFAULT_SERVICE_CHARGE
+} = require("../src/split.js");
 
 test("splitBill membagi tagihan secara rata (belum pembulatan)", () => {
     const result = splitBill(20000, 4);
