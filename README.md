@@ -1,15 +1,7 @@
-# 💸 SplitBill App — DevOps UTS
+# <img src="https://media.tenor.com/tuQ0GK0BvbwAAAAj/racks-bills.gif" width="50"/> SplitBill App — DevOps UTS
 
 Aplikasi **SplitBill** adalah proyek Node.js sederhana yang digunakan untuk menghitung pembagian tagihan antar beberapa orang.  
 Proyek ini dikembangkan sebagai bagian dari **Ujian Tengah Semester (UTS) DevOps** di Telkom University.
-
----
-
-## 👩‍💻 Anggota / Pengembang
-**Nama:** Dewi Atika Muthi  
-**NIM:** 221114042  
-**Kelas:** SE-06-02  
-**Mata Kuliah:** DevOps  
 
 ---
 
@@ -40,6 +32,7 @@ Testing dilakukan menggunakan **Jest**.
 Perintah untuk menjalankan test:
 ```bash
 npm test
+```
 
 ---
 
