@@ -9,7 +9,7 @@ const {
 } = require("../src/split.js");
 const TEST_FILE = "./src/data.json";
 
-test("splitBill membagi tagihan secara rata (belum pembulatan)", () => {
+test("splitBill membagi tagihan secara rata (tanpa pembulatan)", () => {
     const result = splitBill(20000, 4);
     expect(result).toBe(5000);
 });
